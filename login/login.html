@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form id="login">
+        <h3>회원가입</h3>
+        <hr id="line"/>
+        <div id="list">
+            <label>이름</label><br>
+            <input id="name" type="text" value=""><br>
+            <p id="checkname">이름</p>
+            <label>이메일</label><br>
+            <input id="email" type="email" value=""><br>
+            <p id="checkemail">이메일</p>
+            <label>나이</label><br>
+            <input id="age" type="text" value=""><br>
+            <p id="checkage">나이</p>
+            <label>비밀번호</label><br>
+            <input id="password" type="password" value=""><br>
+            <p id="checkpassword">비밀번호</p>
+            <label>비밀번호 확인</label><br>
+            <input id="repassword" type="password" value=""><br>
+            <p id="checkrepass">비밀번호 확인</p>
+        </div>
+        <button id="submit" type="button">가입하기</button>
+    </form>
+    <div id="login_modal">
+        <div id="login_modal_body">
+            <h5>가입 성공</h5>
+            <h6>UMC 챌린저 가입을 축하드립니다!</h6>
+            <button id="close" type="button">닫기</button>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
